@@ -1,0 +1,20 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Node / Build Artefakte (falls je vorhanden)
+node_modules/
+
+# Legacy Build Output (NICHT Source of Truth)
+out/
+
+# Temporär / lokal
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Desktop.ini

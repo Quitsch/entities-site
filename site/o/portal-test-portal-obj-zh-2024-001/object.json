@@ -1,0 +1,79 @@
+{
+  "id": "portal-test-portal-obj-zh-2024-001",
+  "identity": {
+    "canonical_id": "portal-test-portal-obj-zh-2024-001",
+    "source_system": "portal_test",
+    "source_object_id": "portal-obj-zh-2024-001",
+    "external_ids": {
+      "portal": "ZH-8001-01234"
+    }
+  },
+  "usage": {
+    "pricing": {
+      "price": 1610000.0,
+      "currency": "CHF"
+    },
+    "transaction_type": "sale",
+    "availability": {
+      "status": "occupied",
+      "available_from": "2024-10-01"
+    }
+  },
+  "structure": {
+    "attributes": {
+      "living_area_sqm": 87.5,
+      "total_area_sqm": 92.3,
+      "room_count": 3.5,
+      "rooms": [
+        {
+          "type": "living_room",
+          "count": 1,
+          "area_sqm": 22.0
+        },
+        {
+          "type": "bedroom",
+          "count": 2,
+          "area_sqm": 26.0
+        },
+        {
+          "type": "kitchen",
+          "count": 1,
+          "area_sqm": 10.0
+        },
+        {
+          "type": "bathroom",
+          "count": 1,
+          "area_sqm": 6.0
+        }
+      ],
+      "bedroom_count": 2.0,
+      "bathroom_count": 1.0,
+      "property_type": "apartment",
+      "floor_number": 3.0,
+      "total_floors": 5.0,
+      "year_built": 1998.0,
+      "year_renovated": 2018.0,
+      "has_balcony": true,
+      "has_elevator": true,
+      "parking_spaces": 1.0,
+      "energy": {
+        "heating_system": "heat_pump",
+        "energy_source": "electricity",
+        "efficiency_class": "A"
+      }
+    },
+    "address": {
+      "street": "Musterstrasse 12",
+      "postal_code": "8000",
+      "locality": "Zürich",
+      "region": "ZH",
+      "country": "CH"
+    }
+  },
+  "text_layers": {
+    "de": {
+      "title": "3.5-Zimmer-Wohnung in Zürich",
+      "short_description": "Helle 3.5-Zimmer-Wohnung mit Balkon im Zentrum von Zürich, 87.5 m² Wohnfläche, renoviert 2018."
+    }
+  }
+}

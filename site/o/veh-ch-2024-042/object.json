@@ -1,0 +1,232 @@
+{
+  "id": "veh-ch-2024-042",
+  "identity": {
+    "domain": "vehicle",
+    "canonical_id": "veh-ch-2024-042",
+    "external_ids": {
+      "vin": {
+        "value": "WBA8A5C55LD123456",
+        "sensitivity": "high"
+      },
+      "license_plate": "ZH 123456",
+      "system_legacy": "vehicle-789012"
+    },
+    "provenance": {
+      "source": "vehicle_registry",
+      "last_verified": "2024-11-20"
+    },
+    "created_at": "2024-08-15T09:00:00Z",
+    "updated_at": "2024-12-12T16:45:00Z",
+    "version": 2
+  },
+  "structure": {
+    "attributes": {
+      "vehicle_type": "passenger_car",
+      "year_manufactured": 2020,
+      "first_registration": "2020-03-15",
+      "odometer_km": 45230,
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "drive_type": "front_wheel_drive",
+      "doors": 5,
+      "seats": 5,
+      "color_primary": "blue_metallic",
+      "color_code": "475"
+    },
+    "relationships": [
+      {
+        "target_id": "dealer-bmw-zurich-001",
+        "relation_type": "purchased_from",
+        "properties": {
+          "date": "2020-03-15"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "state": "registered",
+    "availability": {
+      "status": "in_use",
+      "valid_from": "2020-03-15T00:00:00Z"
+    }
+  },
+  "media": {
+    "assets": [
+      {
+        "id": "media-exterior-front",
+        "role": "exterior",
+        "uri": "https://assets.example.com/veh-ch-2024-042/exterior-front.jpg",
+        "mime_type": "image/jpeg",
+        "width": 3840,
+        "height": 2160,
+        "checksum": "sha256:d6i8h1e5f4i7j9k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1",
+        "created_at": "2024-08-15T09:15:00Z",
+        "text_refs": {
+          "alt_ref": "text_de_alt_exterior_front_veh-ch-2024-042",
+          "caption_ref": "text_de_caption_exterior_front_veh-ch-2024-042"
+        }
+      },
+      {
+        "id": "media-exterior-side",
+        "role": "exterior",
+        "uri": "https://assets.example.com/veh-ch-2024-042/exterior-side.jpg",
+        "mime_type": "image/jpeg",
+        "width": 3840,
+        "height": 2160,
+        "checksum": "sha256:e7j9i2f6g5j8k0l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2",
+        "created_at": "2024-08-15T09:20:00Z",
+        "text_refs": {
+          "alt_ref": "text_de_alt_exterior_side_veh-ch-2024-042"
+        }
+      },
+      {
+        "id": "media-interior-front",
+        "role": "interior",
+        "uri": "https://assets.example.com/veh-ch-2024-042/interior-front-seats.jpg",
+        "mime_type": "image/jpeg",
+        "width": 3840,
+        "height": 2160,
+        "checksum": "sha256:f8k0j3g7h6k9l1m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3",
+        "created_at": "2024-08-15T09:25:00Z",
+        "text_refs": {
+          "alt_ref": "text_de_alt_interior_front_veh-ch-2024-042",
+          "caption_ref": "text_de_caption_interior_front_veh-ch-2024-042"
+        }
+      },
+      {
+        "id": "media-dashboard",
+        "role": "dashboard",
+        "uri": "https://assets.example.com/veh-ch-2024-042/dashboard-instruments.jpg",
+        "mime_type": "image/jpeg",
+        "width": 3840,
+        "height": 2160,
+        "checksum": "sha256:g9l1k4h8i7l0m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4",
+        "created_at": "2024-08-15T09:30:00Z",
+        "text_refs": {
+          "alt_ref": "text_de_alt_dashboard_veh-ch-2024-042"
+        }
+      },
+      {
+        "id": "media-vin-plate",
+        "role": "vin_plate",
+        "uri": "https://assets.example.com/veh-ch-2024-042/vin-plate.jpg",
+        "mime_type": "image/jpeg",
+        "width": 1920,
+        "height": 1080,
+        "checksum": "sha256:h0m2l5i9j8m1n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5",
+        "created_at": "2024-08-15T09:35:00Z",
+        "text_refs": {
+          "alt_ref": "text_de_alt_vin_plate_veh-ch-2024-042"
+        }
+      },
+      {
+        "id": "media-service-record",
+        "role": "service_record",
+        "uri": "https://assets.example.com/veh-ch-2024-042/service-record-2024.pdf",
+        "mime_type": "application/pdf",
+        "created_at": "2024-11-15T14:00:00Z",
+        "text_refs": {
+          "caption_ref": "text_de_caption_service_record_veh-ch-2024-042"
+        }
+      }
+    ]
+  },
+  "text_layer_refs": [
+    "text_layers_de_veh-ch-2024-042.json",
+    "text_layers_fr_veh-ch-2024-042.json",
+    "text_layers_it_veh-ch-2024-042.json"
+  ],
+  "extensions": {
+    "vehicle": {
+      "specifications": {
+        "make": "BMW",
+        "model": "320i",
+        "series": "G20",
+        "year": 2020,
+        "vin": "WBA8A5C55LD123456",
+        "body_type": "sedan",
+        "doors": 5,
+        "seats": 5
+      },
+      "technical": {
+        "engine": {
+          "type": "petrol",
+          "displacement_cc": 1998,
+          "power_kw": 135,
+          "power_hp": 184,
+          "cylinders": 4,
+          "aspiration": "turbocharged"
+        },
+        "transmission": {
+          "type": "automatic",
+          "gears": 8,
+          "name": "Steptronic"
+        },
+        "drivetrain": {
+          "type": "front_wheel_drive"
+        },
+        "dimensions": {
+          "length_mm": 4709,
+          "width_mm": 1827,
+          "height_mm": 1442,
+          "wheelbase_mm": 2851
+        },
+        "weight": {
+          "curb_weight_kg": 1465
+        },
+        "fuel": {
+          "type": "petrol",
+          "consumption_combined_l100km": 6.2,
+          "emissions_co2_gkm": 142,
+          "euro_norm": "Euro 6d"
+        }
+      },
+      "features": {
+        "interior": [
+          "leather_seats",
+          "digital_instruments",
+          "navigation_system",
+          "cruise_control"
+        ],
+        "exterior": [
+          "alloy_wheels",
+          "led_headlights",
+          "parking_sensors"
+        ],
+        "safety": [
+          "abs",
+          "esp",
+          "airbags_front",
+          "airbags_side",
+          "isofix"
+        ]
+      },
+      "registration": {
+        "country": "CH",
+        "canton": "ZH",
+        "license_plate": "ZH 123456",
+        "first_registration": "2020-03-15",
+        "current_owner_since": "2020-03-15"
+      },
+      "maintenance": {
+        "last_service_date": "2024-11-10",
+        "last_service_km": 44500,
+        "next_service_due_km": 49500,
+        "service_history_count": 5
+      }
+    }
+  },
+  "annotations": {
+    "classification": {
+      "vehicle_category": "passenger_car",
+      "subcategory": "sedan",
+      "segment": "mid-size_luxury",
+      "confidence": 1.0
+    },
+    "embeddings": {
+      "semantic": "embedding-v1:xyz789abc123",
+      "visual": "embedding-v1:def456ghi789"
+    }
+  }
+}
+

@@ -1,0 +1,227 @@
+{
+  "id": "obj-zh-2024-001",
+  "identity": {
+    "domain": "real_estate",
+    "object_id": "obj-zh-2024-001",
+    "source_system": "cadastral_register",
+    "canonical_id": "obj-zh-2024-001",
+    "external_ids": {
+      "cadastral": "ZH-8001-01234",
+      "system_legacy": "prop-987654"
+    },
+    "canonical_hash": "sha256:obj-zh-2024-001",
+    "provenance": {
+      "source": "cadastral_register",
+      "last_verified": "2024-11-15"
+    },
+    "created_at": "2024-09-01T10:00:00Z",
+    "updated_at": "2024-12-10T14:30:00Z",
+    "version": 3
+  },
+  "structure": {
+    "attributes": {
+      "property_type": "apartment",
+      "floor_number": 3,
+      "total_floors": 5,
+      "living_area_sqm": 87.5,
+      "total_area_sqm": 92.3,
+      "room_count": 3.5,
+      "room_breakdown": [
+        { "type": "living_room", "count": 1, "area_sqm": 22.0 },
+        { "type": "bedroom", "count": 2 },
+        { "type": "kitchen", "count": 1 }
+      ],
+      "bedroom_count": 2,
+      "bathroom_count": 1,
+      "has_balcony": true,
+      "has_elevator": true,
+      "parking_spaces": 1,
+      "year_built": 1998,
+      "year_renovated": 2018,
+      "energy": {
+        "heating_system": "heat_pump",
+        "heat_distribution": "floor_heating",
+        "energy_source": "electricity",
+        "efficiency_class": "A"
+      },
+      "rooms": [
+        { "type": "living_room", "count": 1, "area_sqm": 22.0 },
+        { "type": "bedroom", "count": 2, "area_sqm": 26.0 },
+        { "type": "kitchen", "count": 1, "area_sqm": 10.0 },
+        { "type": "bathroom", "count": 1, "area_sqm": 6.0 }
+      ],
+      "features": {
+        "amenities": ["lift", "washing_machine", "dishwasher"],
+        "parking": "garage",
+        "outdoor": "balcony",
+        "storage": "cellar",
+        "accessibility": "wheelchair_accessible"
+      }
+    },
+    "address": {
+      "street": "Musterstrasse 12",
+      "postal_code": "8000",
+      "locality": "Zürich",
+      "region": "ZH",
+      "country": "CH"
+    },
+    "relationships": [
+      {
+        "target_id": "building-zh-8001-001",
+        "relation_type": "located_in",
+        "properties": {
+          "floor": 3,
+          "entrance": "A"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "state": "active",
+    "transaction_type": "sale",
+    "availability": {
+      "status": "occupied",
+      "valid_from": "2024-01-01T00:00:00Z",
+      "available_from": "2024-10-01"
+    },
+    "pricing": { "price": 1610000, "currency": "CHF" },
+    "context": {
+      "intended_use": "investment",
+      "occupancy": "occupied",
+      "notes": "Wohnung wird derzeit vermietet und als Kapitalanlage genutzt."
+    }
+  },
+  "media": [
+    {
+      "role": "floorplan",
+      "uri": "https://assets.example.com/obj-zh-2024-001/floorplan.pdf",
+      "mime": "application/pdf",
+      "text_refs": [
+        "text_de_caption_floorplan_obj-zh-2024-001"
+      ]
+    },
+    {
+      "role": "exterior",
+      "uri": "https://assets.example.com/obj-zh-2024-001/exterior-01.jpg",
+      "mime": "image/jpeg",
+      "text_refs": [
+        "text_de_alt_exterior_001_obj-zh-2024-001"
+      ]
+    },
+    {
+      "role": "interior",
+      "uri": "https://assets.example.com/obj-zh-2024-001/living-room-01.jpg",
+      "mime": "image/jpeg",
+      "text_refs": [
+        "text_de_alt_interior_001_obj-zh-2024-001",
+        "text_de_caption_living_room_obj-zh-2024-001"
+      ]
+    },
+    {
+      "role": "interior",
+      "uri": "https://assets.example.com/obj-zh-2024-001/kitchen-01.jpg",
+      "mime": "image/jpeg",
+      "text_refs": [
+        "text_de_alt_interior_002_obj-zh-2024-001"
+      ]
+    }
+  ],
+  "text_layer_refs": [
+    "text_layers_de_obj-zh-2024-001.json",
+    "text_layers_fr_obj-zh-2024-001.json",
+    "text_layers_it_obj-zh-2024-001.json"
+  ],
+  "extensions": {
+    "real_estate": {
+      "location": {
+        "coordinates": {
+          "lat": 47.3769,
+          "lon": 8.5417
+        },
+        "address_components": {
+          "street": "Bahnhofstrasse",
+          "house_number": "42",
+          "postal_code": "8001",
+          "city": "Zürich",
+          "canton": "ZH",
+          "country": "CH"
+        },
+        "administrative": {
+          "municipality": "Zürich",
+          "district": "Kreis 1",
+          "canton_code": "ZH"
+        }
+      },
+      "building": {
+        "year_built": 1985,
+        "construction_type": "concrete",
+        "energy_standard": "GEAK C",
+        "heating_type": "district_heating",
+        "year_renovated": 2018
+      },
+      "spaces": [
+        {
+          "type": "living_room",
+          "area": 28.5,
+          "count": 1
+        },
+        {
+          "type": "bedroom",
+          "area": 18.2,
+          "count": 2
+        },
+        {
+          "type": "kitchen",
+          "area": 12.8,
+          "count": 1
+        },
+        {
+          "type": "bathroom",
+          "area": 6.5,
+          "count": 1
+        },
+        {
+          "type": "balcony",
+          "area": 8.0,
+          "count": 1
+        }
+      ],
+      "legal": {
+        "ownership_type": "condominium",
+        "zoning": "W3",
+        "building_permit_number": "BA-2018-0456"
+      }
+    }
+  },
+  "annotations": {
+    "classification": {
+      "property_category": "residential",
+      "subcategory": "apartment",
+      "confidence": 1.0
+    },
+    "embeddings": {
+      "semantic": "embedding-v1:abc123def456",
+      "visual": "embedding-v1:ghi789jkl012"
+    }
+  },
+  "provenance": {
+    "created_at": "2024-09-01T10:00:00Z",
+    "updated_at": "2024-12-10T14:30:00Z",
+    "data_confidence": "high",
+    "last_verified_at": "2024-12-10T14:30:00Z"
+  },
+  "text_layers": {
+    "de": {
+      "title": "3.5-Zimmer-Wohnung in Zürich",
+      "short_description": "Helle 3.5-Zimmer-Wohnung mit Balkon im Zentrum von Zürich, 87.5 m² Wohnfläche, renoviert 2018.",
+      "long_description": "Diese attraktive 3.5-Zimmer-Wohnung befindet sich im 3. Stock eines modernisierten Gebäudes im Herzen von Zürich. Die Wohnung bietet 87.5 m² Wohnfläche und wurde 2018 umfassend renoviert. Sie verfügt über einen grosszügigen Wohnbereich, zwei Schlafzimmer, eine moderne Küche und ein Badezimmer. Ein Balkon bietet zusätzlichen Aussenraum. Die Wohnung ist mit einer Wärmepumpe und Fussbodenheizung ausgestattet und verfügt über einen Energieeffizienzklasse A. Ein Parkplatz ist inklusive. Die Wohnung liegt in unmittelbarer Nähe zu öffentlichen Verkehrsmitteln, Einkaufsmöglichkeiten und Schulen."
+    }
+  },
+  "financials": {
+    "running_costs": 12000,
+    "running_costs_currency": "CHF",
+    "rental_income": 36000,
+    "rental_income_currency": "CHF"
+  }
+}
+
